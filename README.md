@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Smart Volunteer Allocation System (SAATHI)
 
-## Getting Started
+## 🚀 Overview
 
-First, run the development server:
+The Smart Volunteer Allocation System (SAATHI) is an AI-powered platform designed to solve the problem of scattered and unstructured community data collected by NGOs and social groups.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+It transforms raw data into actionable insights and intelligently connects volunteers with the most urgent community needs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Problem
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* NGOs collect data through paper surveys and field reports
+* Data remains scattered and unorganized
+* Delay in identifying urgent needs
+* Inefficient volunteer allocation
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Solution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+SAATHI provides:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 📝 Issue Submission System (digitizes community problems)
+* 🧠 AI-based Classification (category & urgency detection)
+* 👥 Volunteer Registration System
+* 🔗 Smart Matching Engine (skill + location-based)
+* 📊 Real-time Dashboard
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Frontend: Next.js (React)
+* Backend: Firebase
+* Database: Firestore
+* AI: Rule-based AI (extendable to Gemini / Vertex AI)
+* Deployment: Vercel
+
+---
+
+## 🧠 How It Works
+
+1. User submits issue
+2. System analyzes using AI
+3. Issue categorized & prioritized
+4. Volunteers registered with skills
+5. Matching algorithm assigns volunteers
+6. Dashboard displays results
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+* Home Page
+* Dashboard
+* Volunteer Page
+
+---
+
+## 🚀 Live Demo
+
+👉 https://your-project-name.vercel.app
+
+---
+
+## 📂 GitHub Repository
+
+👉 https://github.com/your-username/smart-volunteer-system
+
+---
+
+## 🎥 Demo Video
+
+👉 (Paste your video link here)
+
+---
+
+## 📈 Impact
+
+* Reduces response time
+* Improves volunteer efficiency
+* Enhances NGO coordination
+* Enables data-driven decision making
+
+---
+
+## 🔮 Future Scope
+
+* Integration with Google Gemini AI
+* OCR for paper survey digitization
+* WhatsApp-based alerts
+* Multi-language support
+
+---
+
+
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub!
