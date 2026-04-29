@@ -62,13 +62,13 @@ SAATHI provides:
 
 ## 🚀 Live Demo
 
-👉 https://your-project-name.vercel.app
+👉 https://smart-volunteer-system-ihkf.vercel.app/
 
 ---
 
 ## 📂 GitHub Repository
 
-👉 https://github.com/your-username/smart-volunteer-system
+👉 https://github.com/ekramzafar/smart-volunteer-system/
 
 ---
 
