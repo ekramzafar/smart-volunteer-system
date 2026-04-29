@@ -18,44 +18,27 @@ export default function Volunteer() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-100 flex items-center justify-center">
-  <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-lg">
-    
-    <h1 className="text-3xl font-bold text-center text-blue-600 mb-2">
-      Smart Volunteer System
-    </h1>
+    <div style={{ padding: 20 }}>
+      <h1>Volunteer Registration</h1>
 
-    <p className="text-center text-gray-500 mb-6">
-      Report community issues and get help faster 🚀
-    </p>
+      <form onSubmit={handleSubmit}>
+        <input
+          placeholder="Name"
+          onChange={(e) => setForm({ ...form, name: e.target.value })}
+        /><br /><br />
 
-    <form onSubmit={handleSubmit} className="space-y-4">
-      
-      <input
-        className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-        placeholder="Issue Title"
-        onChange={(e) => setForm({ ...form, title: e.target.value })}
-      />
+        <input
+          placeholder="Skill (Food/Medical/Education)"
+          onChange={(e) => setForm({ ...form, skill: e.target.value })}
+        /><br /><br />
 
-      <textarea
-        className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-        placeholder="Describe the problem..."
-        onChange={(e) => setForm({ ...form, description: e.target.value })}
-      />
+        <input
+          placeholder="Location"
+          onChange={(e) => setForm({ ...form, location: e.target.value })}
+        /><br /><br />
 
-      <input
-        className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-        placeholder="Location"
-        onChange={(e) => setForm({ ...form, location: e.target.value })}
-      />
-
-      <button
-        className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-200 font-semibold"
-      >
-        Submit Issue
-      </button>
-    </form>
-  </div>
-</div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
   );
 }
