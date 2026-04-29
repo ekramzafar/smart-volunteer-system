@@ -30,6 +30,9 @@ export default function Home() {
 };
 
   return (
+    <>
+    <Navbar />
+
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-100 flex items-center justify-center">
   <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-lg">
     
@@ -69,5 +72,6 @@ export default function Home() {
     </form>
   </div>
 </div>
+</>
   );
 }
